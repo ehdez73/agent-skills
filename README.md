@@ -90,3 +90,14 @@ skills/
         └── gherkin-best-practices.md
 ```
 
+
+## Other skills
+
+### Spring Boot Skill 
+
+From https://github.com/sivaprasadreddy/sivalabs-agent-skills/
+
+```bash
+# Install
+npx skills add https://github.com/sivaprasadreddy/sivalabs-agent-skills --agent universal --skill spring-boot-skill
+```
