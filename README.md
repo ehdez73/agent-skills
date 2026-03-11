@@ -98,6 +98,15 @@ skills/
 From https://github.com/sivaprasadreddy/sivalabs-agent-skills/
 
 ```bash
-# Install
+# Install Spring Boot Skill
 npx skills add https://github.com/sivaprasadreddy/sivalabs-agent-skills --agent universal --skill spring-boot-skill
+
+```
+
+### Git Commit Skill
+
+From https://github.com/github/awesome-copilot
+```bash
+# Install Git Commit Skill
+npx skills add https://github.com/github/awesome-copilot --agent universal --skill git-commit
 ```
