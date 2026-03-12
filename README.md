@@ -13,13 +13,13 @@ Guide a structured conversation between a Product Owner, Developer, and QA to de
 - Extracting clear features from meeting discussions for implementation
 
 ### 2. Gherkin Generator Skill
-Generates high-quality Gherkin (BDD) scenarios from functional requirements using a two-agent iterative cycle.
+**Transforms functional requirements into production-ready Gherkin (BDD) scenarios** through automated two-agent iteration. The generator creates `.feature` files; the reviewer validates coverage, structure, and clarity—fixed automatically until approved.
 
 **Use this skill when:**
-- Converting functional requirements to Gherkin/BDD test cases
+- You have functional requirements + need to "generate Gherkin", "write BDD scenarios", "create feature tests"
+- Converting requirements documents to executable acceptance criteria and test cases
 - Generating Feature/Scenario/Given/When/Then specifications
-- Creating executable acceptance criteria
-- Transforming requirements documents into behavior-driven tests
+- Building behavior-driven test suites with 100% functional coverage
 
 ## Installation
 
@@ -87,7 +87,9 @@ skills/
     │   ├── generator-agent.md
     │   └── reviewer-agent.md
     └── references/
-        └── gherkin-best-practices.md
+        ├── gherkin-best-practices.md
+        ├── gherkin-rules.md
+        └── workflow-implementation.md
 ```
 
 
@@ -109,4 +111,12 @@ From https://github.com/github/awesome-copilot
 ```bash
 # Install Git Commit Skill
 npx skills add https://github.com/github/awesome-copilot --agent universal --skill git-commit
+```
+
+### skill-creator
+
+From Anthropic: https://github.com/anthropics/skills
+```bash
+# Install
+$ npx skills add https://github.com/anthropics/skills --skill skill-creator
 ```
