@@ -93,16 +93,21 @@ skills/
 ```
 
 
-## Other skills
+## Other skills you might like to try
 
-### Spring Boot Skill 
+### Find Skill
 
-From https://github.com/sivaprasadreddy/sivalabs-agent-skills/
-
+From https://github.com/vercel-labs/skills
 ```bash
-# Install Spring Boot Skill
-npx skills add https://github.com/sivaprasadreddy/sivalabs-agent-skills --agent universal --skill spring-boot-skill
+# Install
+npx skills add https://github.com/vercel-labs/skills --skill find-skills
+```
 
+### Skill Creator
+From Anthropic: https://github.com/anthropics/skills
+```bash
+# Install
+npx skills add https://github.com/anthropics/skills --skill skill-creator
 ```
 
 ### Git Commit Skill
@@ -110,13 +115,38 @@ npx skills add https://github.com/sivaprasadreddy/sivalabs-agent-skills --agent 
 From https://github.com/github/awesome-copilot
 ```bash
 # Install Git Commit Skill
-npx skills add https://github.com/github/awesome-copilot --agent universal --skill git-commit
+npx skills add https://github.com/github/awesome-copilot --skill git-commit
 ```
 
-### skill-creator
+### ADR Writer
 
-From Anthropic: https://github.com/anthropics/skills
+From https://github.com/patricio0312rev/skills 
 ```bash
 # Install
-$ npx skills add https://github.com/anthropics/skills --skill skill-creator
+npx skills add https://github.com/patricio0312rev/skills --skill adr-writer
+```
+
+### Changelog Writer
+
+From https://github.com/patricio0312rev/skills 
+```bash
+# Install
+npx skills add https://github.com/patricio0312rev/skills --skill changelog-writer
+```
+
+### Spring Boot 4.x Skill 
+
+From https://github.com/sivaprasadreddy/sivalabs-agent-skills/
+
+```bash
+# Install Spring Boot Skill
+npx skills add https://github.com/sivaprasadreddy/sivalabs-agent-skills  --skill spring-boot-skill
+```
+
+
+### Excalidraw Diagram Generator
+From https://github.com/github/awesome-copilot
+```bash
+# Install 
+npx skills add https://github.com/github/awesome-copilot --skill excalidraw-diagram-generator
 ```
